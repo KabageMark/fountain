@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.about{
+
+    background-color: white;
+    border: 1px solid #ccc;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.about__title{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+
+.about__content{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+
+}
+ 
+
+.about__team{
+    background-color: white;
+    border: 1px solid #ccc;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+
+
+}
+
+.about__teamMembers{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+}
+
+.about__teamMembersImage{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.about__Teamleft{
+    border-right: 1px solid #ccc;
+
+}
+
+.about__teamMembersName{
+    font-size: medium;
+}
+
+.about__teamMembersTitle{
+    font-size: small;
+    
+}
+
+.about__teamMembersDetails{
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .about{
+        padding-left: 40px;
+        padding-right: 10px;
+    }
+
+    .about__content{
+        font-size: 13px;
+
+    }
+     
+    .about__team{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .about__teamMembers{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .about__teamMembersImage{
+        height: 50px;
+        width: 50px;
+    }
+     
+    .about__teamMembersDetails{
+        padding-left: 0px;
+        padding-right: 50px;
+        padding-top: 10px;
+
+    }
+
+    
+    .about__Teamleft{
+        border-right: none;
+
+    }
+
+
+}
+
+    
+

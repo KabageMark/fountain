@@ -1,0 +1,25 @@
+.sermon{
+    display: flex;
+    background-color: white;
+    z-index: 1;
+    padding: 20px;
+    width: 100%;
+    max-height: 400px;
+    min-width: 100px;
+
+}
+
+
+.sermon__row{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sermon__row > img{
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
